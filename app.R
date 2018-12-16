@@ -1,19 +1,11 @@
 
-# "0.250116109848022  - Shot Chart Data"
-# "0.00769495964050293  - Player XY Charts Data"
-# "0.00774502754211426  - Team XY Charts Data (and FF)"
-# "0.527215003967285  - Game Recap Data"
-# "0.505186080932617  - ELO Data"
-# "0.0616049766540527  - Assist Net Data"
-# "0.0224621295928955  - Player Percentiles Data"
-# "0.0238239765167236  - Outstanding Perf Data"
-
+# Take Advantage of the
+# ====== Code ===== Folding =======
 
 # ===========
 # Setup 
 # ===========
 rm(list = ls())
-# setwd('/Users/Home/Dropbox/My_Documents/Not_Work_or_School/Sports Analytics/InteractiveSportsGraphs/NBAApp/')
 
 library(RCurl)
 library(ggplot2)
@@ -32,6 +24,7 @@ library(network)
 library(sna)
 
 # source for shot charts
+# setwd() <----------- Set a wd here on local machine !!
 source('charts.R')
 # ====
 
@@ -242,7 +235,7 @@ ui <- shinyUI(
                br(), br(), br(), 
   
                h5("Author"),
-               a(h5("Nicholas Canova"), href="https://twitter.com/SmokeyCanova")
+               a(h5("The Creator"), href="https://twitter.com/going-nowhere")
              ),
              mainPanel(
                # verbatimTextOutput("clientdataText"),
@@ -284,7 +277,7 @@ ui <- shinyUI(
                
                br(), br(), br(), 
                h5("Author"),
-               a(h5("Nicholas Canova"), href="https://twitter.com/SmokeyCanova")
+               a(h5("The Creator"), href="https://twitter.com/going-nowhere")
              ),
              mainPanel(
                plotlyOutput('playerxy', height = 'auto'),
@@ -324,7 +317,7 @@ ui <- shinyUI(
                
                br(), br(), br(), 
                h5("Author"),
-               a(h5("Nicholas Canova"), href="https://twitter.com/SmokeyCanova")
+               a(h5("The Creator"), href="https://twitter.com/going-nowhere")
              ),
              mainPanel(
                plotlyOutput('teamxy', height = 'auto'),
@@ -355,7 +348,7 @@ ui <- shinyUI(
 
                br(), br(), br(), 
                h5("Author"),
-               a(h5("Nicholas Canova"), href="https://twitter.com/SmokeyCanova")
+               a(h5("The Creator"), href="https://twitter.com/going-nowhere")
              ),
              
              mainPanel(
@@ -389,7 +382,7 @@ ui <- shinyUI(
                
                br(), br(), br(), 
                h5("Author"),
-               a(h5("Nicholas Canova"), href="https://twitter.com/SmokeyCanova")
+               a(h5("The Creator"), href="https://twitter.com/going-nowhere")
              ),
              
              mainPanel(
@@ -424,7 +417,7 @@ ui <- shinyUI(
                
                br(), br(), br(),
                h5("Author"),
-               a(h5("Nicholas Canova"), href="https://twitter.com/SmokeyCanova")
+               a(h5("The Creator"), href="https://twitter.com/going-nowhere")
              ),
              mainPanel(
                # plotOutput('assistnet', height = 'auto')
@@ -460,7 +453,7 @@ ui <- shinyUI(
                           
                           br(), br(), br(),
                           h5("Author"),
-                          a(h5("Nicholas Canova"), href="https://twitter.com/SmokeyCanova")
+                          a(h5("The Creator"), href="https://twitter.com/going-nowhere")
                           ),
              mainPanel(
                plotlyOutput('fourfactors', height = 'auto'),
@@ -489,7 +482,7 @@ ui <- shinyUI(
                           
                           br(), br(), br(),
                           h5("Author"),
-                          a(h5("Nicholas Canova"), href="https://twitter.com/SmokeyCanova")
+                          a(h5("The Creator"), href="https://twitter.com/going-nowhere")
                           ),
              mainPanel(
                plotlyOutput('playerpercentiles', height = 'auto'),
@@ -521,7 +514,7 @@ ui <- shinyUI(
 
                           br(), br(), br(),
                           h5("Author"),
-                          a(h5("Nicholas Canova"), href="https://twitter.com/SmokeyCanova")
+                          a(h5("The Creator"), href="https://twitter.com/going-nowhere")
                           ),
              mainPanel(
                plotlyOutput('impressiveperformances', height = 'auto'),
