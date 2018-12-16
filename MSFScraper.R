@@ -4,7 +4,7 @@
 # ==============
 
 rm(list = ls())
-setwd('/Users/Home/Dropbox/My_Documents/Not_Work_or_School/Sports Analytics/InteractiveSportsGraphs/NBAApp/Data')
+# setwd() # Set your working directory here 
 Sys.setenv(TZ='America/Los_Angeles')
 
 library(mysportsfeedsR)
@@ -19,8 +19,9 @@ library(mongolite)
 .MySportsFeedsEnv <- new.env()
 .MySportsFeedsEnv$data <- list(v1_0_username <- NULL,
                                v1_0_password <- NULL)
-authenticate_v1_0('NicholasCanova', 'thisis1strongsportsfeedpassword')
-# authenticate_v1_0('kcarrozza', 'F@nd3x')
+
+# Get a free non-commercial API key from MySportsFeeds to work these functions
+# Note That I Use an OUTDATED (v1) version of MySportsFeeds - they have recently released v2.
 
 # ELO update helper functions
 movMultiplier <- function(w_pregame_ELO, l_pregame_ELO, margin_of_win, did_home_team_win) { 
