@@ -24,7 +24,7 @@ library(network)
 library(sna)
 
 # source for shot charts
-# setwd() <----------- Set a wd here on local machine !!
+# setwd() # <----------- Set a wd here on local machine !!
 source('charts.R')
 # ====
 

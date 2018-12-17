@@ -9,10 +9,10 @@
 # the logo
 output$pxy.logo <- renderImage({
   # When input$n is 1, filename is ./images/image1.jpeg
-  filename <- 'Images/nbalogo.png'
+  filename <- 'Images/teamlogos.jpg'
   
-  this.width <- session$clientData$output_pxy.logo_width
-  this.height <- this.width / (1250 / 588) # the file ratio
+  this.width <- session$clientData$output_sc.logo_width
+  this.height <- this.width / (1365 / 1024) # the file ratio
   
   # Return a list containing the filename
   list(src = filename,
