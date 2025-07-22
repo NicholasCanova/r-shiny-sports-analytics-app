@@ -29,11 +29,11 @@ An interactive R Shiny application for visualizing NBA data with multiple analyt
 
 ## Screenshots
 
-<img src="https://github.com/user-attachments/assets/302ad5f4-169c-4bd9-a530-1675704b36fa" width="500" alt="Shot Charts">
-<img src="https://github.com/user-attachments/assets/83663602-666f-4f56-ace8-e4a8754d9c4d" width="500" alt="Player Comparisons">
+<img src="https://github.com/user-attachments/assets/302ad5f4-169c-4bd9-a530-1675704b36fa" width="550" alt="Shot Charts">
+<img src="https://github.com/user-attachments/assets/83663602-666f-4f56-ace8-e4a8754d9c4d" width="550" alt="Player Comparisons">
 
-<img src="https://github.com/user-attachments/assets/c5a8cbf0-287d-479d-8c29-5381a70d28b1" width="535" alt="Team Analytics">
-<img src="https://github.com/user-attachments/assets/7541359f-ca20-4c9c-8e38-ae68baab1359" width="450" alt="Game Recaps">
+<img src="https://github.com/user-attachments/assets/c5a8cbf0-287d-479d-8c29-5381a70d28b1" width="550" alt="Team Analytics">
+<img src="https://github.com/user-attachments/assets/7541359f-ca20-4c9c-8e38-ae68baab1359" width="550" alt="Game Recaps">
 
 
 ## Data Sources
